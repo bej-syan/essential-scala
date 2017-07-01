@@ -46,9 +46,9 @@ object RecursiveData {
               Pair(5,
                 Pair(6, End))))))
 
-    println(s"oneTwoThree's length: ${oneTwoThree.length}")
-    println(s"oneTwoThree's product: ${oneTwoThree.product}")
-    println(s"oneTwoThree's double: ${oneTwoThree.double}")
-    println(s"oneTwoThree's sum: ${oneTwoThree.sum}")
+    println(s"oneTwoThree's length: ${oneToSix.length}")
+    println(s"oneTwoThree's product: ${oneToSix.product}")
+    println(s"oneTwoThree's double: ${oneToSix.double}")
+    println(s"oneTwoThree's sum: ${oneToSix.sum}")
   }
 }
