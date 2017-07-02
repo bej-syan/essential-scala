@@ -1,10 +1,13 @@
 package com.syan.essentialscala.generics.variance
 
-sealed trait Sum[A, B] {
+sealed trait Sum[???, ???] {
   def fold
+
   def map
+
   def flatMap
 }
+
 final case class Failure[???](value: ???) extends Sum[???, ???]
 final case class Success[???](value: ???) extends Sum[???, ???]
 
@@ -14,6 +17,7 @@ sealed trait Expression {
 
   def lift2(l: Expression, r: Expression, f: (Double, Double) => Sum[String, Double]) = ???
 }
+
 final case class Addition(left: Expression, right: Expression) extends Expression
 final case class Subtraction(left: Expression, right: Expression) extends Expression
 final case class Division(left: Expression, right: Expression) extends Expression
