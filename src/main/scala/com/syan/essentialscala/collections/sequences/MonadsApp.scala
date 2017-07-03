@@ -21,7 +21,7 @@ package com.syan.essentialscala.collections.sequences
 object MonadsApp {
   def main(args: Array[String]): Unit = {
 
-    
+
 
   }
 }
